@@ -8,6 +8,8 @@
     <meta name="decription" content="Página de soporte para problemas de computadora">
     <link href="estilos.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/486f118f14.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 
 <body>
@@ -41,8 +43,45 @@
                 acumulación de polvo.</p>
             <img src="imagenes/file.png">
         </div>
-        <div class="columna">columna 2</div>
-    </div>
+        <div class="columna">
+            <h2 class="mapa">Mapa Interactivo</h2>
+            <div id="map"></div>
+            <script>
+                var map = L.map('map').setView([-31.370487, -64.236130], 13);
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map)
+                var marker = L.marker([-31.315334551947437, -64.31391895616514]).addTo(map)
+                var marker = L.marker([-31.34451330184824, -64.33586758387014]).addTo(map)
+                var marker = L.marker([-31.310278383300876, -64.3049359940022]).addTo(map)
+                var marker = L.marker([-31.298339870306393, -64.2901437097048]).addTo(map)
+                var marker = L.marker([-31.299894194587953, -64.27674296385084]).addTo(map)
+                var marker = L.marker([-31.309659009779672, -64.24991518877272]).addTo(map)
+                var marker = L.marker([-31.332489819646096, -64.2882511385437]).addTo(map)
+                var marker = L.marker([-31.341958903251545, -64.27060308854415]).addTo(map)
+                var marker = L.marker([-31.347263281224176, -64.274516037753]).addTo(map)
+                var marker = L.marker([-31.37759629202816, -64.20538959894894]).addTo(map)
+                var marker = L.marker([-31.38614160873401, -64.21746783155602]).addTo(map)
+                var marker = L.marker([-31.378279889109262, -64.17770697523153]).addTo(map)
+                var marker = L.marker([-31.38473506410799, -64.16577701607395]).addTo(map)
+                var marker = L.marker([-31.421765934525194, -64.1236953426445]).addTo(map)
+                var marker = L.marker([-31.412895535912817, -64.15393780324624]).addTo(map)
+                var marker = L.marker([-31.425359529918094, -64.18831253250309]).addTo(map)
+                var marker = L.marker([-31.4372221536079, -64.22880813603177]).addTo(map)
+                var marker = L.marker([-31.416073032399876, -64.19696421131039]).addTo(map)
+                var marker = L.marker([-31.40900083269053, -64.18999193580974]).addTo(map)
+                var marker = L.marker([-31.414617232741126, -64.18174380137575]).addTo(map)
+            </script>
+            Posibles lugares donde resolver tu problema
+            <div class="polvo2">
+                <img src="Slider/polvo2.jpeg">
+            </div>
+            <div class="coms">
+                Soporte:
+                Telefono: +543512370855
+                Whatsapp: +543515060828
+                Email: teoparise@techsupport.com
+            </div>
 </body>
 
 </html>

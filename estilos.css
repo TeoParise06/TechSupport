@@ -243,3 +243,22 @@ a {
   border: 1px solid black;
   padding: 20px;
 }
+
+#map {
+  height: 250px;
+  width: 75%;
+  top: -20px;
+  right: -77px;
+}
+
+.coms {
+  margin: 20px;
+  color: white;
+  background: rgb(35, 77, 99);
+  border: 3px solid rgb(41, 107, 143);
+}
+
+.polvo2 img {
+  width: 25%;
+  margin: 5px;
+}
