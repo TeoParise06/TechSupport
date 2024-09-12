@@ -170,6 +170,10 @@ button:hover {
   width: 18%;
 }
 
+.armoimg {
+  width: 18%;
+}
+
 .vermas {
   grid-template-areas: blame;
 }
@@ -180,7 +184,7 @@ button:hover {
 }
 
 .tempe:hover {
-  border: 5px solid rgb(41, 107, 143);
+  border: 3px solid rgb(41, 107, 143);
 }
 
 .polvito {
@@ -189,7 +193,7 @@ button:hover {
 }
 
 .polvito:hover {
-  border: 5px solid rgb(41, 107, 143);
+  border: 3px solid rgb(41, 107, 143);
 }
 
 .grid-2 {
@@ -209,6 +213,7 @@ button:hover {
 .item5 {
   grid-area: honor;
   color: black;
+  text-decoration: none;
 }
 
 .item6 {
@@ -217,5 +222,115 @@ button:hover {
 
 .item7 {
   grid-area: phone;
+  color: black;
+}
+
+.item9 {
+  color: black;
+}
+
+.armado {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+.armado:hover {
+  border: 3px solid rgb(41, 107, 143);
+}
+
+.lentoren {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+.lentoren:hover {
+  border: 3px solid rgb(41, 107, 143);
+}
+
+.lentoimg {
+  width: 18%;
+}
+
+.item11 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-areas:
+    'loco loca poco poco poco poco'
+    'nato nato gato gato gato gato'
+    'game game blame blame game game';
+  gap: 10px;
+  padding: 10px;
+}
+
+.nofuncaelcompo {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+.nofuncaelcompo:hover {
+  border: 3px solid rgb(41, 107, 143);
+}
+
+.funimg {
+  width: 18%;
+}
+
+.item12 {
+  grid-area: loco;
+}
+
+.item13 {
+  grid-area: poco;
+  color: black;
+}
+
+.softoware {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+.softoware:hover {
+  border: 3px solid rgb(41, 107, 143);
+}
+
+.softwareimg {
+  width: 18%;
+}
+
+.item14 {
+  grid-area: nato;
+}
+
+.item15 {
+  grid-area: gato;
+  color: black;
+}
+
+.hardware {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+.hardware:hover {
+  border: 3px solid rgb(41, 107, 143);
+}
+
+.hardwareimg {
+  width: 18%;
+}
+
+.item16 {
+  grid-area: game;
+}
+
+.item17 {
+  grid-area: blame;
   color: black;
 }

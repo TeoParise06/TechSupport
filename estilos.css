@@ -176,7 +176,7 @@ button:hover {
 }
 
 .tempe:hover {
-  border: 5px solid rgb(41, 107, 143);
+  border: 3px solid rgb(41, 107, 143);
 }
 
 .polvito {
@@ -185,7 +185,7 @@ button:hover {
 }
 
 .polvito:hover {
-  border: 5px solid rgb(41, 107, 143);
+  border: 3px solid rgb(41, 107, 143);
 }
 
 .grid-2 {
@@ -214,4 +214,32 @@ button:hover {
 .item7 {
   grid-area: phone;
   color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90vh;
+  gap: 20px;
+}
+
+.columna {
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.columna img {
+  width: 10%;
+}
+
+.polvita {
+  color: black;
+  border: 1px solid black;
+  padding: 20px;
 }
