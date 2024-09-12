@@ -1,0 +1,217 @@
+h1 {
+  font-size: 40px;
+  color: white;
+  font-family: "KoHo", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  float: top;
+  top: -92px;
+  left: 113px;
+}
+
+h2 {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+}
+
+.content {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.logo {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+html {
+  background-image: linear-gradient(rgb(35, 77, 99), gray, white);
+}
+
+.menulin img {
+  width: 90%;
+  height: 50px;
+}
+
+.menulin {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(35, 77, 99);
+  border: 0;
+  cursor: pointer;
+}
+
+header img {
+  width: 7%;
+}
+
+.Exinfo {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(35, 77, 99);
+  color: white;
+}
+
+.lineas {
+  float: right;
+  margin-top: 0 0 1em 1em;
+}
+
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: main;
+}
+
+.item3 {
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu main main right right'
+    'footer footer footer footer footer footer';
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container>div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="search"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="search"]:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: rgb(41, 107, 143);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="search"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="search"]:focus {
+  outline: none;
+  border-color: rgb(41, 107, 143);
+}
+
+button {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  background-color: rgb(41, 107, 143);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(41, 107, 143);
+}
+
+.tempimg {
+  width: 18%;
+}
+
+.polvoimg {
+  width: 18%;
+}
+
+.tempe {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+.tempe:hover {
+  border: 5px solid rgb(41, 107, 143);
+}
+
+.polvito {
+  background: #ecf0f1;
+  padding: 1em;
+}
+
+.polvito:hover {
+  border: 5px solid rgb(41, 107, 143);
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-areas:
+    'selection selecton honor honor honor honor'
+    'gapper gapper phone phone phone phone'
+    'game game blame blame game game';
+  gap: 10px;
+  padding: 10px;
+}
+
+.item4 {
+  grid-area: selection;
+}
+
+.item5 {
+  grid-area: honor;
+  color: black;
+}
+
+.item6 {
+  grid-area: gapper;
+}
+
+.item7 {
+  grid-area: phone;
+  color: black;
+}
