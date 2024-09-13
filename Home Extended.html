@@ -8,6 +8,7 @@
     <meta name="decription" content="Página de soporte para problemas de computadora">
     <link href="estilos extended.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/486f118f14.js" crossorigin="anonymous"></script>
+    <script src="lava.js"></script>
 </head>
 
 <body>
@@ -31,10 +32,8 @@
                 <h2> Soluciones Para Computadoras</h2>
                 <title>Barra de Búsqueda</title>
                 <div class="search-container">
-                    <form action="/buscar" method="get" class="search-box">
-                        <input type="search" name="q" placeholder="Buscar..." class="search-input">
-                        <button type="submit" class="search-button">Buscar</button>
-                    </form>
+                    <input type="search" id="searchInput" placeholder="Buscar en la página...">
+                    <button onclick="buscar()">Buscar</button>
                 </div>
             </div>
         </div>
@@ -45,7 +44,7 @@
         </div>
         <div class="grid-2">
             <div class="item3">
-                <div class="tempe">
+                <div class="tempe card" id="altastempraturas">
                     <nav>
                         <a href="TemperaturasAltas.html">
                             <div class="item4">
@@ -60,7 +59,7 @@
                     </nav>
                 </div>
             </div>
-            <div class="polvito">
+            <div class="polvito card" id="muchopolvo">
                 <nav>
                     <a href="Polvo.html">
                         <div class="item6">
@@ -74,7 +73,7 @@
                     </a>
                 </nav>
             </div>
-            <div class="armado">
+            <div class="armado card" id="armadisimo">
                 <nav>
                     <a href="Armado.html">
                         <div class="item8">
@@ -87,7 +86,7 @@
                     </a>
                 </nav>
             </div>
-            <div class="lentoren">
+            <div class="lentoren card" id="lentaso">
                 <nav>
                     <a href="lentito.html">
                         <div class="item10">
@@ -103,7 +102,7 @@
             </div>
         </div>
         <div class="grid-3">
-            <div class="nofuncaelcompo">
+            <div class="nofuncaelcompo card" id="fallaenelcompo">
                 <nav>
                     <a href="Componentesnofuncan.html">
                         <div class="item12">
@@ -118,7 +117,7 @@
                     </a>
                 </nav>
             </div>
-            <div class="softoware">
+            <div class="softoware card" id="softyware">
                 <nav>
                     <a href="Software.html">
                         <div class="item14">
@@ -133,7 +132,7 @@
                     </a>
                 </nav>
             </div>
-            <div class="hardware">
+            <div class="hardware card" id="duroware">
                 <nav>
                     <a href="Hardware.html">
                         <div class="item16">

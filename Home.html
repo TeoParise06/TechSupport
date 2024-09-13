@@ -8,6 +8,7 @@
     <meta name="decription" content="Página de soporte para problemas de computadora">
     <link href="estilos.css" type="text/css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/486f118f14.js" crossorigin="anonymous"></script>
+    <script src="lava.js"></script>
 </head>
 
 <body>
@@ -31,12 +32,11 @@
                 <h2> Soluciones Para Computadoras</h2>
                 <title>Barra de Búsqueda</title>
                 <div class="search-container">
-                    <form action="/buscar" method="get" class="search-box">
-                        <input type="search" name="q" placeholder="Buscar..." class="search-input">
-                        <button type="submit" class="search-button">Buscar</button>
-                    </form>
+                    <input type="search" id="searchInput" placeholder="Buscar en la página..." onchange="buscar()">
+                    <button onclick="buscar()">Buscar</button>
                 </div>
             </div>
+        </div>
     </body>
     <main>
         <div class="item2">
@@ -44,7 +44,7 @@
         </div>
         <div class="grid-2">
             <div class="item3">
-                <div class="tempe">
+                <div class="tempe card" id="altastemperaturas">
                     <nav>
                         <a href="TemperaturasAltas.html">
                             <div class="item4">
@@ -59,18 +59,18 @@
                     </nav>
                 </div>
             </div>
-            <div class="polvito">
+            <div class="polvito card" id="muchopolvo
                 <nav>
-                    <a href="Polvo.html">
-                        <div class="item6">
-                            <img class="polvoimg" src="imagenes/polvo.jpeg">
-                        </div>
-                        <div class="item7">
-                            Polvo:La acumulación de polvo puede afectar el rendimiento de tu
-                            computador. Ocasiona que los componentes de tu computador adquieran cierta temperatura,
-                            disminuyendo así la eficiencia de todo el sistema
-                        </div>
-                    </a>
+                    <a href=" Polvo.html">
+                <div class="item6">
+                    <img class="polvoimg" src="imagenes/polvo.jpeg">
+                </div>
+                <div class="item7">
+                    Polvo:La acumulación de polvo puede afectar el rendimiento de tu
+                    computador. Ocasiona que los componentes de tu computador adquieran cierta temperatura,
+                    disminuyendo así la eficiencia de todo el sistema
+                </div>
+                </a>
                 </nav>
             </div>
         </div>
